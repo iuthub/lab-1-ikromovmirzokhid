@@ -1,0 +1,27 @@
+22:44:13.918096 == Info: Rebuilt URL to: facebook.com/
+22:44:13.931075 == Info:   Trying 31.13.72.36...
+22:44:14.019525 == Info: Connected to facebook.com (31.13.72.36) port 80 (#0)
+22:44:14.019734 => Send header, 76 bytes (0x4c)
+0000: GET / HTTP/1.1
+0010: Host: facebook.com
+0024: User-Agent: curl/7.47.0
+003d: Accept: */*
+004a: 
+22:44:14.261280 <= Recv header, 20 bytes (0x14)
+0000: HTTP/1.1 302 Found
+22:44:14.261467 <= Recv header, 33 bytes (0x21)
+0000: Location: https://facebook.com/
+22:44:14.261553 <= Recv header, 42 bytes (0x2a)
+0000: Content-Type: text/html; charset="utf-8"
+22:44:14.261629 <= Recv header, 102 bytes (0x66)
+0000: X-FB-Debug: xdgQ+qxT1BU3UCwT6FMwYv1l2L0NACLcxOmcIPfpeav0tPgREriu
+0040: qC2LOcpyoFgcbnCYfQur0ld99i+r0rM5sw==
+22:44:14.261708 <= Recv header, 37 bytes (0x25)
+0000: Date: Mon, 04 Feb 2019 17:44:13 GMT
+22:44:14.261752 <= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+22:44:14.261787 <= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+22:44:14.261821 <= Recv header, 2 bytes (0x2)
+0000: 
+22:44:14.261875 == Info: Connection #0 to host facebook.com left intact
